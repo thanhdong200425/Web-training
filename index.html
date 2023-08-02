@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!--Header part-->
+    <header class="hd">
+      <div class="hd__navigation">
+        <div class="hd__navigation--left-side">
+          <a href="" class="hd__navigation__web-name"> Carousel </a>
+          <a href="" class="hd__navigation__home">Home</a>
+          <a href="" class="hd__navigation__link">Link</a>
+          <a href="" class="hd__navigation__disabled">Disabled</a>
+        </div>
+        <div class="hd__navigation--right-side">
+          <div class="hd__navigation--right-side__input">
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="hd__navigation--right-side__search-btn">
+            <p>Search</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Main part-->
+    <main class="mn">
+      <div class="mn__slideshow" id="top">
+        <div class="mn__slideshow__slides">
+          <div class="mn__slideshow__slides__slide">
+            <h1 class="mn__slideshow__slides__slide__title">
+              Example headline
+            </h1>
+            <p class="mn__slideshow__slides__slide__desc">
+              Some representative placeholder content for the first slide of the
+              carousel.
+            </p>
+            <button class="mn__slideshow__slides__slide__btn">
+              Learn more
+            </button>
+          </div>
+          <div class="mn__slideshow__slides__slide">
+            <h1 class="mn__slideshow__slides__slide__title">
+              Another Example headline
+            </h1>
+            <p class="mn__slideshow__slides__slide__desc">
+              Some representative placeholder content for the first slide of the
+              carousel.
+            </p>
+            <button class="mn__slideshow__slides__slide__btn">
+              Learn more
+            </button>
+          </div>
+          <div class="mn__slideshow__slides__slide">
+            <h1 class="mn__slideshow__slides__slide__title">
+              One more for good measure.
+            </h1>
+            <p class="mn__slideshow__slides__slide__desc">
+              Some representative placeholder content for the first slide of the
+              carousel.
+            </p>
+            <button class="mn__slideshow__slides__slide__btn">
+              Learn more
+            </button>
+          </div>
+        </div>
+        <a href="" class="prev" onclick="plusSlides(-1)"><</a>
+        <a href="" class="next" onclick="plusSlides(1)">></a>
+      </div>
+
+      <div class="mn__content-marketing">
+        <div class="mn__content-marketing__contents">
+          <div class="mn__content-marketing__content">
+            <div class="mn__content-marketing__content-image"></div>
+            <h2 class="mn__content-marketing__content-heading">Heading</h2>
+            <p class="mn__content-marketing__content-desc">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <button class="mn__content-marketing__content-button">
+              View details
+            </button>
+          </div>
+          <div class="mn__content-marketing__content">
+            <div class="mn__content-marketing__content-image"></div>
+            <h2 class="mn__content-marketing__content-heading">Heading</h2>
+            <p class="mn__content-marketing__content-desc">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <button class="mn__content-marketing__content-button">
+              View details
+            </button>
+          </div>
+          <div class="mn__content-marketing__content">
+            <div class="mn__content-marketing__content-image"></div>
+            <h2 class="mn__content-marketing__content-heading">Heading</h2>
+            <p class="mn__content-marketing__content-desc">
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <button class="mn__content-marketing__content-button">
+              View details »
+            </button>
+          </div>
+        </div>
+        <hr class="divider" />
+        <div class="mn__content-marketing__featurette">
+          <div class="mn__content-marketing__featurette__title">
+            <h1>
+              First featurette heading.
+              <span style="color: rgb(108, 117, 125)"
+                >It'll blow your mind.
+              </span>
+            </h1>
+            <p>
+              Some great placeholder content for the first featurette here.
+              Imagine some exciting prose here.
+            </p>
+          </div>
+          <div class="mn__content-marketing__featurette__image">
+            <p>500x500</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <div class="mn__content-marketing__featurette">
+          <div
+            class="mn__content-marketing__featurette__image"
+            style="margin-right: 15px"
+          >
+            <p>500x500</p>
+          </div>
+          <div class="mn__content-marketing__featurette__title">
+            <h1>
+              Oh yeah, it’s that good.
+              <span style="color: rgb(108, 117, 125)">See for yourself. </span>
+            </h1>
+            <p>
+              Another featurette? Of course. More placeholder content here to
+              give you an idea of how this layout would work with some actual
+              real-world content in place.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <div class="mn__content-marketing__featurette">
+          <div class="mn__content-marketing__featurette__title">
+            <h1>
+              First featurette heading.
+              <span style="color: rgb(108, 117, 125)"
+                >It'll blow your mind.
+              </span>
+            </h1>
+            <p>
+              Some great placeholder content for the first featurette here.
+              Imagine some exciting prose here.
+            </p>
+          </div>
+          <div class="mn__content-marketing__featurette__image">
+            <p>500x500</p>
+          </div>
+        </div>
+        <hr class="divider" />
+      </div>
+    </main>
+
+    <!--Footer part-->
+    <footer class="ft">
+      <p>
+        © 2017–2022 Company, Inc.
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+      </p>
+      <p>
+        <a href="#top">Back to top</a>
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
