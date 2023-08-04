@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <!--Header part-->
@@ -17,12 +20,8 @@
           <a href="" class="hd__navigation__disabled">Disabled</a>
         </div>
         <div class="hd__navigation--right-side">
-          <div class="hd__navigation--right-side__input">
-            <input type="text" placeholder="Search" />
-          </div>
-          <div class="hd__navigation--right-side__search-btn">
-            <p>Search</p>
-          </div>
+          <input type="text" placeholder="Search">
+          <button>Search</button>
         </div>
       </div>
     </header>
@@ -67,9 +66,12 @@
               Learn more
             </button>
           </div>
+          <button class="prev" onclick="plusSlides(-1)">
+            <span><</span>
+          </button>
+          <button class="next" onclick="plusSlides(1)">
+          <span>></span></button>
         </div>
-        <a href="" class="prev" onclick="plusSlides(-1)"><</a>
-        <a href="" class="next" onclick="plusSlides(1)">></a>
       </div>
 
       <div class="mn__content-marketing">
@@ -150,14 +152,13 @@
         <div class="mn__content-marketing__featurette">
           <div class="mn__content-marketing__featurette__title">
             <h1>
-              First featurette heading.
+              And lastly, this one. 
               <span style="color: rgb(108, 117, 125)"
-                >It'll blow your mind.
+                >Checkmate.
               </span>
             </h1>
             <p>
-              Some great placeholder content for the first featurette here.
-              Imagine some exciting prose here.
+              And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.
             </p>
           </div>
           <div class="mn__content-marketing__featurette__image">
@@ -173,12 +174,13 @@
       <p>
         © 2017–2022 Company, Inc.
         <a href="">Privacy</a>
+        <span> · </span>
         <a href="">Terms</a>
       </p>
       <p>
         <a href="#top">Back to top</a>
       </p>
     </footer>
-    <script src="main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
